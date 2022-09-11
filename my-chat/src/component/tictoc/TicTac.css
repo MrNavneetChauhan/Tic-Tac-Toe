@@ -1,0 +1,79 @@
+.t-container{
+    border:1px solid white;
+    /* display: flex; */
+    justify-content: center;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.t-container>.game-div{
+    border:1px solid rgba(8, 10, 8, 0.534);
+    height: 320px;
+    width: 90%;
+    margin: 30px auto;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+}
+
+table td{
+    border:1px solid blue;
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+}
+
+table td:hover{
+    background-color: rgba(95, 96, 97, 0.164);
+    cursor: pointer;
+}
+
+.show-turn{
+    margin: 0;
+    padding:0;
+    color:white;
+    margin-bottom: -10px;
+}
+
+.message-box{
+    border:1px solid white;
+    width:60px;
+    height: 60px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -30px;
+    background-color: coral;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    position: relative;
+}
+/* now let's check this out */
+
+.winner-tagline{
+    color:white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+
+.restart{
+    margin-left: 20px;
+}
+
+.winner-div{
+    display:flex;
+
+}
+
+.notification{
+    position: absolute;
+    font-size: 18px;
+    right:10px;
+    background-color: red;
+    width:22px;
+    border-radius: 50%;
+
+}
